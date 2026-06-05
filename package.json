@@ -1,0 +1,20 @@
+{
+  "name": "electron_quick_todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^42.3.3"
+  },
+  "dependencies": {
+    "nedb-promises": "^6.2.3"
+  }
+}
