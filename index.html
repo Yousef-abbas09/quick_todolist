@@ -307,7 +307,6 @@
 
       // counts
       document.getElementById('count-all').textContent     = tasks.length
-      document.getElementById('count-today').textContent   = tasks.filter(t => t.date === getToday()).length
       document.getElementById('count-pending').textContent = tasks.filter(t => !t.done).length
       document.getElementById('count-done').textContent    = tasks.filter(t => t.done).length
 
